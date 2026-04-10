@@ -72,8 +72,8 @@
             <url>https://nexus.clanjhoo.com/repository/maven-public/</url>
         </repository>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
     </repositories>
 
@@ -117,13 +117,6 @@
             <version>LATEST</version>
             <scope>provided</scope>
         </dependency>
-        <!-- GriefPrevention -->
-        <dependency>
-            <groupId>com.github.TechFortress</groupId>
-            <artifactId>griefprevention</artifactId>
-            <version>LATEST</version>
-            <scope>provided</scope>
-        </dependency>
         <!-- VampireRevamp -->
         <dependency>
             <groupId>com.clanjhoo</groupId>
@@ -137,24 +130,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- PVPManager -->
-        <dependency>
-            <groupId>me.NoChance.PvPManager</groupId>
-            <artifactId>pvpmanager</artifactId>
-            <version>LATEST</version>
-            <scope>provided</scope>
-        </dependency>
         <!-- Vault -->
         <dependency>
             <groupId>com.github.MilkBowl</groupId>
             <artifactId>VaultAPI</artifactId>
-            <version>LATEST</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>LATEST</version>
+            <version>1.7</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
